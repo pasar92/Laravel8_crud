@@ -1,0 +1,39 @@
+//Xampp installeren
+
+
+//composer installeren
+https://getcomposer.org/download/
+
+
+
+
+composer create-project laravel/laravel example-app
+
+//to create a new project
+laravel new app-name
+
+
+//UI en npm installeren
+composer require laravel/ui
+php artisan ui bootstrap --auth
+npm install && npm run dev
+
+
+//To check the connection of database(type this in command line)
+php artisan tinker
+DB::connection()->getPdo();
+
+
+
+
+//install node.js and npm
+https://nodejs.org/en/download/
+
+
+
+//create controller, model en migration
+php artisan make:model --migration --controller NAME --resource
+
+
+//laravel extentions for VScode
+https://devdojo.com/bobbyiliev/8-awesome-vs-code-extensions-for-laravel-developers

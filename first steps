@@ -32,7 +32,7 @@ https://nodejs.org/en/download/
 
 
 //create controller, model en migration
-php artisan make:model --migration --controller NAME --resource
+php artisan make:model Name --controller --resource --migration
 
 
 //laravel extentions for VScode

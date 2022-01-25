@@ -37,3 +37,7 @@ php artisan make:model Name --controller --resource --migration
 
 //laravel extentions for VScode
 https://devdojo.com/bobbyiliev/8-awesome-vs-code-extensions-for-laravel-developers
+
+
+//a good website for laravel beginners
+https://www.itsolutionstuff.com/tag/laravel-8.html
